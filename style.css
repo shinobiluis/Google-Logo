@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html:{
+    font-size: 10px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #061c2d;
+}
+
+.logo{
+    border:1px solid red;
+    position: relative;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 50%;
+    border-left: 40px solid #fbbc05;
+    border-right: 40px solid #4385f6;
+    border-top: 40px solid #ec4336;
+    border-bottom: 40px solid #34a856;
+}
