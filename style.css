@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-html:{
+html{
     font-size: 10px;
 }
 
@@ -17,13 +17,23 @@ body{
 }
 
 .logo{
-    border:1px solid red;
     position: relative;
-    width: 22rem;
-    height: 22rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 50%;
     border-left: 40px solid #fbbc05;
     border-right: 40px solid #4385f6;
     border-top: 40px solid #ec4336;
     border-bottom: 40px solid #34a856;
+}
+.logo::before{
+    content:'';
+    position: absolute;
+    top: -150px;
+    right: -150px;
+    border-top: 110px solid transparent;
+    border-right: 110px solid #061c2d;
+    border-bottom: 110px solid transparent;
+    border-left: 110px solid transparent;
+    transform: rotate(90deg);
 }
